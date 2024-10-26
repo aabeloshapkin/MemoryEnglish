@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memory</title>
+    <title>МЕМОРИ ENGLISH</title>
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    
+    <div class="game-name">MEMORY ENGLISH</div>
+    <div class="modal2 open-modal2" id="model2-start">
+        <div class="modal2-start">
+            <div>ПРАВИЛА МЕМОРИ ENGLISH</div>
+            <div>Находите одинаковые пары карточек за наименьшее количество ходов.</div>
+            <button class="start-btn2" id="new-game-btn2">Играть</button>
+        </div>
+    </div>
+
+
+    <div id="game" class="game">
+
+    </div>
+    <div class="modal" id="model-start">
+        <div class="modal-start">
+            <h2>Победа!</h2>
+            <h3>Ходов:</h3>
+            <h3 id="count-moves"></h3>
+            <button class="start-btn" id="new-game-btn">Новая игра</button>
+        </div>
+    </div>
+    <script defer src="./script.js" type="module"></script>
 </body>
 </html>
